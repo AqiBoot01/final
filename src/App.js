@@ -20,12 +20,12 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/final" element={<BMmusic></BMmusic>} />
-        <Route path="/final/bmjewel" element={<BMjewel></BMjewel>} />
-        <Route path="/final/bmmega" element={<BMmega></BMmega>} />
-        <Route path="/final/bmgalaxy" element={<BMgalaxy></BMgalaxy>} />
-        <Route path="/final/bmgame" element={<BMgame></BMgame>} />
-        <Route path="/final/bmlast" element={<BMlast></BMlast>} />
+        <Route path={process.env.PUBLIC_URL + '/'} element={<BMmusic></BMmusic>} />
+        <Route path={process.env.PUBLIC_URL + '/bmjewel'} element={<BMjewel></BMjewel>} />
+        <Route path={process.env.PUBLIC_URL + '/bmmega'} element={<BMmega></BMmega>} />
+        <Route path={process.env.PUBLIC_URL + '/bmgalaxy'} element={<BMgalaxy></BMgalaxy>} />
+        <Route path={process.env.PUBLIC_URL + '/bmgame'} element={<BMgame></BMgame>} />
+        <Route path={process.env.PUBLIC_URL + '/bmlast'} element={<BMlast></BMlast>} />
       </Routes>
           {/* <BMmusic></BMmusic> */}
           {/* <BMjewel></BMjewel> */}
