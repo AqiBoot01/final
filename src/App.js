@@ -21,11 +21,11 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<BMmusic></BMmusic>} />
-        <Route path="/bmjewel" element={<BMjewel></BMjewel>} />
-        <Route path="/bmmega" element={<BMmega></BMmega>} />
-        <Route path="/bmgalaxy" element={<BMgalaxy></BMgalaxy>} />
-        <Route path="/bmgame" element={<BMgame></BMgame>} />
-        <Route path="/bmlast" element={<BMlast></BMlast>} />
+        <Route path="/final/bmjewel" element={<BMjewel></BMjewel>} />
+        <Route path="/final/bmmega" element={<BMmega></BMmega>} />
+        <Route path="/final/bmgalaxy" element={<BMgalaxy></BMgalaxy>} />
+        <Route path="/final/bmgame" element={<BMgame></BMgame>} />
+        <Route path="/final/bmlast" element={<BMlast></BMlast>} />
       </Routes>
           {/* <BMmusic></BMmusic> */}
           {/* <BMjewel></BMjewel> */}
