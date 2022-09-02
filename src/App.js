@@ -20,7 +20,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<BMmusic></BMmusic>} />
+        <Route path="/final" element={<BMmusic></BMmusic>} />
         <Route path="/final/bmjewel" element={<BMjewel></BMjewel>} />
         <Route path="/final/bmmega" element={<BMmega></BMmega>} />
         <Route path="/final/bmgalaxy" element={<BMgalaxy></BMgalaxy>} />
